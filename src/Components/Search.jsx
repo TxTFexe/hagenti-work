@@ -8,7 +8,7 @@ function Search() {
 
     return(
     <div className="search">
-        <input value={searchValue} onChange={event => setSearchValue(event.target.value)} type="text" className="search__input" placeholder="Type your text"></input>
+        <input value={searchValue} onChange={event => setSearchValue(event.target.value)} type="text" className="search__input" placeholder="Найти работу"></input>
         <button className="search__button">
             <svg className="search__icon" aria-hidden="true" viewBox="0 0 24 24">
                 <g>
